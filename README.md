@@ -12,4 +12,4 @@
 * Unhappy with my first attempt to optimize the model, I also tried using a neural network model which called back the model's weight every 5 epochs, using 100 epochs. This resulted in a model with increased accuracy from both the inital model and the first optimized model, with an accuracy of 72.5%.
 * I tried a third time to optimize the data, this time using the neural network model again. In this go-round, I increased the number of epochs to 150. The resulting accuracy was 72.5%. 
 ## Summary: 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The accuracy of our model did not reach above 75%. An alternative option would be to use a random forest model. This model would be helpful in this scenario, since it can also achieve predictive accuracy on large tabular data.
